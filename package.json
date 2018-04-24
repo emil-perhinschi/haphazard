@@ -1,0 +1,19 @@
+{
+  "name": "haphazard",
+  "version": "0.1.0",
+  "description": "pseudo-ramdom generators usefull only for random noise, not cryptography",
+  "main": "dist/haphazard.js",
+  "scripts": {
+    "build": "webpack --mode development --config webpack.js --display-error-details",
+    "lint": "./node_modules/.bin/eslint  lib/*.js t/*.js ",
+    "test": "npm run build && NODE_PATH=./dist tap t/*.js"
+  },
+  "author": "Emil Nicolaie Perhinschi",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "tap": "^11.1.4",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}
