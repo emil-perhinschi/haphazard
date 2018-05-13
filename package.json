@@ -1,6 +1,6 @@
 {
   "name": "haphazard",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "pseudo-ramdom generators usefull only for random noise, not cryptography",
   "main": "dist/haphazard.js",
   "scripts": {
